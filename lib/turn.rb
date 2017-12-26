@@ -9,3 +9,15 @@ end
 def input_to_index(index)
   index.to_i - 1
 end
+
+def valid_move?(board, index)
+  if board[index]
+end
+
+def position_taken? (board, index)
+  if board[index] == "" || board[index] == " "
+    false
+  else 
+    true
+  end
+end
